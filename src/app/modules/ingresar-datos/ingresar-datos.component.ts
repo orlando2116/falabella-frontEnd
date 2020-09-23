@@ -21,7 +21,7 @@ export class IngresarDatosComponent implements OnInit {
   initialize() {
     this.ingresarDatosFormGroup = new FormGroup({
       rut: new FormControl('', [Validators.required, Validators.maxLength(10)]),
-      phone: new FormControl('', [Validators.required, Validators.maxLength(9)]),
+      phone: new FormControl('', [Validators.required, Validators.maxLength(15)]),
       email: new FormControl('', [Validators.required, Validators.email])
     });
   }

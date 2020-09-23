@@ -21,13 +21,13 @@
                    <p>
                         <mat-form-field class="form-field" appearance="standard">
                             <mat-label>Rut</mat-label>
-                            <input matInput placeholder="Ej: 11.111.111-8" formControlName="rut">
+                            <input matInput mask="00.000.000-A" placeholder="Ej: 11.111.111-8" formControlName="rut">
                         </mat-form-field>
                     </p>
                     <p>
                         <mat-form-field class="form-field" appearance="standard">
                         <mat-label>Celular</mat-label>
-                        <input matInput placeholder="EJ: 987654321" type="number" formControlName="phone">
+                        <input matInput placeholder="EJ: +56987654321" mask="+00 0 0000 0000"  type="text" formControlName="phone">
                         <mat-hint>Máximo 9 números</mat-hint>
                         </mat-form-field>
                     </p>

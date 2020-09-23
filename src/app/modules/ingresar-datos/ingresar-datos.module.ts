@@ -4,6 +4,7 @@ import { IngresarDatosComponent } from './ingresar-datos.component';
 import { IngresarDatosRoutingModule } from './ingresar-datos.routing.module';
 import { MaterialModule } from '../../material/material.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgxMaskModule } from 'ngx-mask';
 
 @NgModule({
   declarations: [IngresarDatosComponent],
@@ -11,7 +12,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     IngresarDatosRoutingModule,
     MaterialModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxMaskModule.forRoot(),
     ],
   exports: [
     IngresarDatosComponent

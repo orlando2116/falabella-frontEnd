@@ -12,6 +12,7 @@ import { LandingService } from '../../services/landing.service';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
 @NgModule({
   declarations: [RentaComponent],
   imports: [
@@ -23,7 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     InterceptorModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot({positionClass: 'toast-top-center', timeOut: 3000, preventDuplicates: true})
-  ],
+    ],
   providers: [
     LandingService,
     ToastrModule
