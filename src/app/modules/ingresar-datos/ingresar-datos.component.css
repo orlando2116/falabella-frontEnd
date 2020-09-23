@@ -1,0 +1,554 @@
+.imagen-principal{
+    width: 100%;
+    position: absolute;
+}
+
+.text-title{
+    color: #E4DDDB;
+    margin: 0 !important;
+}
+.text-subtitle{
+    color: white;
+    margin: 0 !important;
+    font-weight: bold;
+}
+.mat-fab, .mat-flat-button, .mat-mini-fab, .mat-raised-button {
+    color:white;
+    background-color: #00943e;
+}
+
+
+@media (min-width: 1920px) {
+
+    .text{
+        position: relative;
+        text-align: left;
+        top: 190px;
+        left: 75px;
+    }
+    .text-title{
+        font-size: 40px;
+    }
+    .text-subtitle{
+        font-size: 43px;
+    }
+
+    .card{
+        width: 698px;
+        float: right;
+        right: 260px;
+        top: 21px;
+        height: 854px;
+        text-align: center;
+    }
+
+    .card-header{
+        
+        margin: 0 auto ;
+    }
+    .card-title{
+        font-size: 30px !important;
+        margin: 0 auto;
+    }
+
+    .card-subtitle{
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    .form-field{
+        width: 400px;
+        font-size: 23px;
+        margin-top: 30px;
+    }
+
+    .button > button{
+        height: 60px !important;
+        width: 340px !important;
+        margin-top: 80px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1919px) {
+
+    .text{
+        position: relative;
+        text-align: left;
+        top: 190px;
+        left: 75px;
+    }
+    .text-title{
+        font-size: 40px;
+    }
+    .text-subtitle{
+        font-size: 43px;
+    }
+
+    .card{
+        width: 698px;
+        float: right;
+        right: 260px;
+        top: 21px;
+        height: 854px;
+        text-align: center;
+    }
+
+    .card-header{
+        
+        margin: 0 auto ;
+    }
+    .card-title{
+        font-size: 30px !important;
+        margin: 0 auto;
+    }
+
+    .card-subtitle{
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    .form-field{
+        width: 400px;
+        font-size: 23px;
+        margin-top: 30px;
+    }
+
+    .button > button{
+        height: 60px ;
+        width: 340px ;
+        margin-top: 80px;
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 1900px) {
+    .card{
+        right: 214px;
+    }
+}
+@media (max-width: 1850px) {
+    .text{
+        top: 260px;
+        left: 90px;
+    }
+}
+
+@media (max-width: 1720px) {
+    .text{
+        top: 260px;
+        left: 72px;
+    }
+    .card{
+        right: 145px;
+    }
+}
+@media (max-width: 1650px) {
+    .text{
+        top: 230px;
+        left: 50px;
+    }
+    .card{
+        right: 106px;
+    }
+}
+
+@media (max-width: 1650px) {
+    .text{
+        top: 230px;
+        left: 42px;
+    }
+    .card{
+        right: 70px;
+        width: 545px;
+    }
+}
+
+@media (max-width: 1515px) {
+    .text{
+        top: 230px;
+        left: 30px;
+    }
+    .card{
+        right: 76px;
+    }
+}
+
+@media (max-width: 1455px) {
+    .text{
+        top: 201px;
+        left: 30px;
+    }
+    .card{
+        width: 392px ;
+        right: 125px;
+        height: 545px;
+        top: -10px;
+    }
+    .card-subtitle{
+        font-size: 15px;
+    }
+    .text-title{
+        font-size: 37px;
+    }
+    .text-subtitle{
+        font-size: 40px;
+    }
+    .form-field{
+        width: 380px;
+        margin-top: 4px;
+    }
+
+    .button > button{
+
+        margin-top: 30px;
+        font-size: 20px;
+        height: 50px ;
+        width: 280px;
+    }
+}
+
+@media (max-width: 1360px){
+    .text{
+        top: 190px;
+        left: 27px;
+    }
+    .text-title{
+        font-size: 34px;
+    }
+    .text-subtitle{
+        font-size: 37px;
+    }
+
+    .card{
+        right: 105px;
+    }
+}
+
+@media (max-width: 1240px){
+
+    .text{
+        top: 171px;
+    }
+    .text-title{
+        font-size: 31px;
+    }
+    .text-subtitle{
+        font-size: 34px;
+    }
+
+    .card{
+        right: 105px;
+        height: 461px;
+    }
+    .form-field{
+       font-size: 18px;
+       margin-top: -20px;
+    }
+    .button > button{
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 1115px){
+    .text-title{
+        font-size: 28px;
+    }
+    .text-subtitle{
+        font-size: 30px;
+    }
+    .text{
+        top: 155px;
+    }
+    .form-field{
+        font-size: 16px;
+        width: 270px;
+     }
+     .card{
+        width: 336px;
+        height: 408px;
+     }
+     .button > button{
+        font-size: 16px;
+        width: 225px;
+    }
+}
+
+@media (max-width: 1024px){
+    .text-title{
+        font-size: 26px;
+    }
+    .text-subtitle{
+        font-size: 28px;
+    }
+    .text{
+        top: 140px
+    }
+}
+
+@media (max-width: 980px){
+    .card{
+        width: 290px;
+        height: 360px; 
+    }  
+    
+    .form-field{
+        font-size: 15px;
+        margin-top: -23px;
+    }
+    .card-subtitle{
+        font-size: 13px;
+    }
+    .text-title{
+        font-size: 25px;
+    }
+    .text-subtitle{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 916px){
+    .text{
+        top: 126px
+    }
+    .text-title{
+        font-size: 23px;
+    }
+    .text-subtitle{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 886px){
+    .card{
+        right: 14%;
+        top: 190px;
+        width: 600px; 
+    }
+    .form-field{
+        width: 440px;
+    }
+    .button > button{        
+        width: 280px;
+    }
+
+    .text{
+        text-align: right;
+        left: 0px;
+        margin-right: 67px;
+        top: 169px;
+    }
+    .text-title{
+        font-size: 23px;
+    }
+    .text-subtitle{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 774px){
+    .card{
+        width: 560px;
+        right: 12%;
+    }
+    .form-field{
+        width: 410px;
+    }
+}
+
+@media (max-width: 716px){
+    .card{
+        width: 530px;
+        right: 11%;
+    }
+    .form-field{
+        width: 390px;
+    }
+    .text-title{
+        font-size: 22px;
+    }
+    .text-subtitle{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 672px){
+    .card{
+        width: 500px;
+    }
+    .form-field{
+        width: 350px;
+    }
+}
+
+@media (max-width: 610px){
+    .card{
+        width: 450px;
+    }
+    .form-field{
+        width: 300px;
+    }
+    .button > button{        
+        width: 260px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 550px){
+    .card{
+        width: 400px;
+    }
+    .form-field{
+        width: 250px;
+    }
+    .button > button{        
+        width: 225px;
+    }
+}
+@media (max-width: 502px){
+    .card{
+        width: 360px;
+        top: 138px;
+    }
+
+    .text{
+        top: 135px;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .card{
+        width: 320px;
+        top: 97px;
+    }
+
+    .text{
+        top: 97px;
+    }
+    
+}
+@media (max-width: 402px){
+    .card{
+        width: 283px;
+        top: 75px;
+    }
+
+    .text{
+        top: 76px;
+        margin-right: 47px;
+    }
+    
+}
+
+@media (max-width: 362px){
+    .card{
+        width: 252px;
+        top: 62px;
+        height: 300px;
+    }
+
+    .text{
+        top: 63px;
+    }
+
+    .text-title{
+        font-size: 19px;
+    }
+    .text-subtitle{
+        font-size: 21px;
+    }
+    .card-subtitle {
+        font-size: 12px;
+    }
+    .mat-card-header .mat-card-title {
+        font-size: 18px;
+    }
+
+    .form-field{
+        width: 220px;
+        font-size: 14px;
+        margin-top: -26px;
+    }
+    
+    .button > button{        
+        margin-top: -8px;
+        width: 175px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 362px){
+    .card{
+        width: 231px;
+        
+    }
+    .text-title{
+        font-size: 17px;
+    }
+    .text-subtitle{
+        font-size: 19px;
+    }
+}
+@media (max-width: 298px){
+    .text{
+        margin-right: 36px;
+        top: 46px;
+    }
+    .card{
+        width: 200px;
+        height: 280px;
+        top: 45px;
+    }
+    .text-title{
+        font-size: 17px;
+    }
+    .text-subtitle{
+        font-size: 19px;
+    }
+    .form-field{
+        width: 188px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 264px){
+    .card{
+        width: 174px;
+        top: 41px;
+    }
+    .text{
+        top: 40px;
+    }
+    .text-title{
+        font-size: 15px;
+    }
+    .text-subtitle{
+        font-size: 17px;
+    }
+    .form-field{
+        width: 164px;
+    }
+}
+
+@media (max-width: 236px){
+
+    .card{
+        width: 153px;
+    }
+    .mat-card-header .mat-card-title {
+        font-size: 17px;
+    }
+    .form-field{
+        width: 150px;
+    }
+    .button > button{        
+        margin-top: -10px;
+        width: 140px;
+        height: 29px;
+        font-size: 15px;
+    }
+}
+

@@ -1,0 +1,57 @@
+
+<div>
+    <div>
+        <img class="imagen-principal" src="assets/bg-landing.jpg" alt="">
+    </div>
+    <div class="text">
+        <p class="text-title">Tu Cuenta Corriente </p>
+        <p class="text-subtitle">100% on line</p>
+    </div>
+    <mat-card class="card">
+       
+        <mat-card-header class="card-header">
+          <mat-card-title ><span clas="card-title">Ingresa tus Datos</span></mat-card-title>
+          <mat-card-subtitle ><span class="card-subtitle">Solo necesitas tener tu cédula para realizar la solicitud</span></mat-card-subtitle>
+        </mat-card-header>
+       
+        <mat-card-content class="card-content">
+            <form (ngSubmit)='login()' [formGroup]="ingresarDatosFormGroup">
+
+                <div>    
+                   <p>
+                        <mat-form-field class="form-field" appearance="standard">
+                            <mat-label>Rut</mat-label>
+                            <input matInput placeholder="Ej: 11.111.111-8" formControlName="rut">
+                        </mat-form-field>
+                    </p>
+                    <p>
+                        <mat-form-field class="form-field" appearance="standard">
+                        <mat-label>Celular</mat-label>
+                        <input matInput placeholder="EJ: 987654321" formControlName="phone">
+                        <mat-hint>Máximo 9 números</mat-hint>
+                        </mat-form-field>
+                    </p>
+                    <p>
+                        <mat-form-field class="form-field" appearance="standard">
+                        <mat-label>Correo Electrónico</mat-label>
+                        <input matInput placeholder="EJ: correo@correo.cl" formControlName="email">
+                        </mat-form-field>
+                    </p>
+                    <div class="button">
+                        <button mat-raised-button color="primary"
+                            [disabled]="ingresarDatosFormGroup.invalid"
+                            type="submit">Continuar
+                        </button>
+                        
+                    </div>
+                    
+                </div>
+            </form>
+        
+        </mat-card-content>
+       
+      </mat-card>
+
+
+    
+</div>
