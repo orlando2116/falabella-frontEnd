@@ -22,8 +22,8 @@
     }
 
     .button > button{
-        height: 36px !important;
-        width: 166px !important;
+        height: 36px ;
+        width: 166px ;
         font-size: 18px;
     }
 }
@@ -38,8 +38,8 @@
     }
 
     .button > button{
-        height: 36px !important;
-        width: 166px !important;
+        height: 36px ;
+        width: 166px ;
         font-size: 18px;
     }
 }
@@ -60,6 +60,9 @@
     .mat-card-content, .mat-card-subtitle {
         font-size: 13px;
     }
+    .form-field{
+        font-size: 17px;
+    }
     .button > button{
         font-size: 17px;
     }
@@ -75,8 +78,8 @@
 
 @media (max-width: 758px) {
     .card{
-        right: 142px;
-        top: 189px;
+        right: 113px;
+        top: 270px;
         height: 250px;
         width: 428px;
     }   
@@ -85,19 +88,16 @@
 @media (max-width: 706px) {
     .card{
         height: 211px;
-        width: 405px;
+        width: 450px;
+        right: 95px;
     }   
 }
 @media (max-width: 638px) {
     .card{
-        width: 351px;
+        right: 96px;
+        right: 79px;
     }   
-    .mat-card-header .mat-card-title {
-        font-size: 17px;
-    }
-    .mat-card-content, .mat-card-subtitle {
-        font-size: 12px;
-    }
+   
     .button > button{
         font-size: 16px;
     }
@@ -105,16 +105,27 @@
 
 @media (max-width: 548px) {
     .card{
-        right: 114px;
-        width: 315px;
-        top: 153px;
+        right: 62px;
+        width: 407px;
+        top: 196px;
     }   
+    .form-field{
+        width: 300px;
+    }
+    .button > button{
+        width: 215px;
+    }
 }
-
+@media (max-width: 505px) {
+    .card{
+        right: 33px;
+    }
+}
 @media (max-width: 480px) {
     .card{
-        right: 65px;
-        top: 125px;
+        right: 56px;
+        top: 168px;
+        width: 340px;
     }   
 }
 
@@ -122,14 +133,10 @@
     .card{
         right: 51px;
         width: 295px;
-        top: 103px;
+        top: 157px;
+        height: 220px;
     }   
-    .mat-card-header .mat-card-title {
-        font-size: 16px;
-    }
-    .mat-card-content, .mat-card-subtitle {
-        font-size: 11px;
-    }
+    
     .button > button{
         font-size: 15px;
         width: 155px;
@@ -138,8 +145,22 @@
 
 @media (max-width: 390px) {
     .card{
+        width: 288px;
+        top: 155px;
+        right: 38px;
+    }
+}
+
+@media (max-width: 363px) {
+    .card{
+        width: 264px;
+        top: 155px;
+        right: 32px;
+        height: 238px;
+    }
+
+    .form-field{      
         width: 255px;
-        top: 87px;
     }
 }
 @media (max-width: 344px) {
@@ -150,8 +171,12 @@
 @media (max-width: 320px) {
     .card{
         width: 230px;
-        top: 67px;
+        top: 118px;
         height: 193px;
+        height: 260px;
+    }
+    .form-field{
+        width: 221px;
     }
     .button > button{
         height: 34px !important;
@@ -162,5 +187,11 @@
 @media (max-width: 294px) {
     .card{
         right: 17px;
+    }
+}
+
+@media (max-width: 280px) {
+    .card{
+        right: 11px;
     }
 }

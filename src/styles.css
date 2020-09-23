@@ -6,3 +6,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-card-header-text{
     margin: 0 auto !important;
 }
+
+.texto-verde{
+    color: #00943e;
+    font-weight: bold;
+}

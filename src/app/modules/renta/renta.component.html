@@ -6,14 +6,14 @@
     <mat-card class="card">
        
         <mat-card-header class="card-header">
-          <mat-card-title ><span clas="card-title">Ayúdanos con unos datos más</span></mat-card-title>
+          <mat-card-title ><span clas="card-title"><span class="texto-verde">Ayúdanos</span> con unos datos más</span></mat-card-title>
           <mat-card-subtitle ><span class="card-subtitle">Porque te queremos dar una oferta hecha a la medida para ti, necesitamos saber un poco más.</span></mat-card-subtitle>
         </mat-card-header>
        
         <mat-card-content class="card-content">
     <form (ngSubmit)='register()' [formGroup]="rentFormGroup">   
         <p>      
-                <mat-form-field appearance="standard">
+                <mat-form-field class="form-field" appearance="standard">
                     <mat-label>¿Cuál es tu renta líquida?</mat-label>
                     <input matInput placeholder="Ej: 400.000" formControlName="rent">
                 </mat-form-field>
