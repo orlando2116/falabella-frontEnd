@@ -3,6 +3,8 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { LandingService } from '../../services/landing.service';
 
+import { ToastrService } from 'ngx-toastr';
+
 @Component({
   selector: 'app-renta',
   templateUrl: './renta.component.html',
@@ -14,16 +16,15 @@ export class RentaComponent implements OnInit {
   landing;
 
   constructor(private route: ActivatedRoute,
-              private landingService: LandingService) {
+              private landingService: LandingService,
+              private toastr: ToastrService) {
 
   }
   ngOnInit() {
-    console.log(navigator);
-
+    
     this.route.params.subscribe(params => {
       const parameter = JSON.parse(params['parameter']);
       this.landing = JSON.parse(params['parameter']);
-      console.log(parameter)
     });
 
     this.initialize();
@@ -39,10 +40,10 @@ export class RentaComponent implements OnInit {
   register() {
     this.landingService.post(this.landing)
     .subscribe(res => {
-      console.log(res)
+      this.toastr.success('Datos Guardados!', 'Éxito.');
     }, err => {
-
-    })
+      this.toastr.error('lo sentimos, ha ocurrido un error', 'Error :(');
+    });
   }
 
 }

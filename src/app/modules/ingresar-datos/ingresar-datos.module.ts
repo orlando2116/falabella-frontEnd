@@ -11,7 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     IngresarDatosRoutingModule,
     MaterialModule,
-    ReactiveFormsModule,
+    ReactiveFormsModule
     ],
   exports: [
     IngresarDatosComponent

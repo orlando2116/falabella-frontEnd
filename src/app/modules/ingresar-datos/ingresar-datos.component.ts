@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-ingresar-datos',
   templateUrl: './ingresar-datos.component.html',
@@ -14,12 +15,13 @@ export class IngresarDatosComponent implements OnInit {
 
   ngOnInit() {
     this.initialize();
+    
   }
 
   initialize() {
     this.ingresarDatosFormGroup = new FormGroup({
-      rut: new FormControl('', [Validators.required]),
-      phone: new FormControl('', [Validators.required]),
+      rut: new FormControl('', [Validators.required, Validators.maxLength(10)]),
+      phone: new FormControl('', [Validators.required, Validators.maxLength(9)]),
       email: new FormControl('', [Validators.required, Validators.email])
     });
   }
