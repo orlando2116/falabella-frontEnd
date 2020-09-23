@@ -38,6 +38,8 @@ export class RentaComponent implements OnInit {
 
 
   register() {
+    this.landing.rent = this.rentFormGroup.value.rent;
+
     this.landingService.post(this.landing)
     .subscribe(res => {
       this.toastr.success('Datos Guardados!', 'Éxito.');
