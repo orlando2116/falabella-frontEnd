@@ -1,3 +1,13 @@
 .logo-falabella{
     margin: 0 auto;
 }
+
+
+@media (max-width: 695px){
+    .toolbar{
+        height: 46px;
+    }
+    .logo-falabella{
+        width: 100px;
+    }
+}
